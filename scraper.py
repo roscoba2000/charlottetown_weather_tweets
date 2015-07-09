@@ -1,6 +1,3 @@
-import scraperwiki
-import requests
-
 import time
 import urllib
 import re
@@ -13,8 +10,8 @@ Temperature = HTML.group(1)
 
 TempTweet = "The temperature in Charlottetown is " + Temperature + " http://www.theguardian.pe.ca/Weather-Forecast"
 
-auth = tweepy.OAuthHandler("FownCzUifldM8XrpRN70t9Rpr", "tKZQDS1tzbXen2jHkPMhrdBzagDt62LC3JgESm2K4s7QdMdu0n")
-auth.set_access_token("9056452-PnygMdcxjnRohFEq2NmUeiSojgwIG9uEjyHJPyZMsQ", "zeAZBSf4VrbyewmrF5mbZV4GddW7y1FRgw4CATn8pG33r")
+auth = tweepy.OAuthHandler("o5NHBNd94C8MHOwKfmRW6Am36", "J2va7YswmudkDXC3CuXdjN6WjAlZYnyQUTdYTiZqcGd1Dqmgpj")
+auth.set_access_token("3351764193-OJibbL4vL61nnzeKEf9EJEx0gOf5v0pxBfmQGJG", "FlkMDrcAi1iTgE94CppjiwVoZNMXpKiSTYAfJbXQ4Iime")
 api = tweepy.API(auth)
 
 # searchResult = api.search(geocode="43.6363,-79.353,500km", rpp="100")
