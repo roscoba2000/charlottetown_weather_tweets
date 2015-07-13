@@ -18,8 +18,8 @@ while Temperature != ErrorValue:
 		auth.set_access_token("3351764193-OJibbL4vL61nnzeKEf9EJEx0gOf5v0pxBfmQGJG", "FlkMDrcAi1iTgE94CppjiwVoZNMXpKiSTYAfJbXQ4Iime")
 		api = tweepy.API(auth)
 		api.update_status(status=TempTweet)
-		time.sleep(3600)
+		time.sleep(7200)
 	except:
 		pass
 		print "oops"
-		time.sleep(3600)
+		time.sleep(7200)
